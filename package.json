@@ -1,0 +1,31 @@
+{
+  "name": "mariohtml5",
+  "version": "1.0.0",
+  "description": "This is a clone of Infinite Mario, written in Javascript for web browsers using HTML5.",
+  "main": "main.html",
+  "scripts": {
+    "local": "npx http-server ./",
+    "build": "node compiler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klokt-valg/mariohtml5.git"
+  },
+  "keywords": [
+    "javascript",
+    "canvas",
+    "html5",
+    "mario-game"
+  ],
+  "author": "Robert Kleffner (https://github.com/robertkleffner)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/klokt-valg/mariohtml5/issues"
+  },
+  "homepage": "https://github.com/klokt-valg/mariohtml5#readme",
+  "devDependencies": {
+    "google-closure-compiler": "^20190415.0.0",
+    "http-server": "^0.11.1"
+  }
+}
